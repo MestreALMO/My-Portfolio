@@ -6,7 +6,14 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     outline: 0;
-    background-color: #1C1C1C;
-    color: #fff;
+
+    button {
+      cursor:pointer;
+    }
+  }
+
+  body {
+    background: black;
+    color: white;
   }
 `;

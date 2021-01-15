@@ -1,15 +1,26 @@
 import React from 'react';
+import { IoReloadCircleOutline } from 'react-icons/io5';
 
-import { Container } from './styles';
+import { Container, Button } from './styles';
 
-const Header: React.FC = () => (
-  <>
-    <Container>
-      <div>
-        <h1>Welcome to André Lusegadis&apos;s Portfolio!</h1>
-      </div>
-    </Container>
-  </>
-);
+const Header: React.FC = () => {
+  function refreshPage() {
+    window.location.reload();
+  }
+
+  return (
+    <>
+      <Container>
+        <div>
+          <h1>Welcome to André Lusegadis&apos; Portfolio!</h1>
+        </div>
+
+        <Button type="button" onClick={refreshPage}>
+          <IoReloadCircleOutline />
+        </Button>
+      </Container>
+    </>
+  );
+};
 
 export default Header;

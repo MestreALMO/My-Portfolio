@@ -42,4 +42,31 @@ export const Container = styled.div`
       border-color: orange;
     }
   }
+
+  @media only screen and (max-width: 730px) {
+    div h1 {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 455px) {
+    div h1 {
+      font-size: 10px;
+    }
+  }
+`;
+
+export const Button = styled.button`
+  border: 0;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+
+  font-size: 30px;
+  margin: 0.1em;
+
+  position: absolute;
+  right: 0;
+  top: 0;
 `;

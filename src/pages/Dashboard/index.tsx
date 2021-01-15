@@ -11,6 +11,7 @@ const Dashboard: React.FC = () => (
       <p>Template</p>
       <br />
       <a href="Page2">Sign up</a> */}
+      <p>testing</p>
     </Container>
   </>
 );
