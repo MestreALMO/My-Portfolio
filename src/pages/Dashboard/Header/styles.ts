@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #333;
+  background: #001f54;
   padding-top: 2.5em;
   padding-bottom: 2.5em;
   display: flex;
@@ -43,13 +43,13 @@ export const Container = styled.div`
     }
   }
 
-  @media only screen and (max-width: 730px) {
+  @media (max-width: 730px) {
     div h1 {
       font-size: 16px;
     }
   }
 
-  @media only screen and (max-width: 455px) {
+  @media (max-width: 455px) {
     div h1 {
       font-size: 10px;
     }
