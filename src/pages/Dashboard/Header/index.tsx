@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoReloadCircleOutline } from 'react-icons/io5';
 
-import { Container, Button } from './styles';
+import { Container, Button, Span } from './styles';
 
 const Header: React.FC = () => {
   function refreshPage() {
@@ -15,8 +15,9 @@ const Header: React.FC = () => {
           <h1>Welcome to André Lusegadis&apos; Portfolio!</h1>
         </div>
 
-        <Button type="button" onClick={refreshPage}>
+        <Button onClick={refreshPage}>
           <IoReloadCircleOutline />
+          <Span>See the typing animation again</Span>
         </Button>
       </Container>
     </>
