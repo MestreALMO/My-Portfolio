@@ -89,6 +89,7 @@ export const Button = styled.button`
   }
 
   &:hover {
+    color: gray;
     Span {
       opacity: 1;
       transition: opacity 0.4s;
