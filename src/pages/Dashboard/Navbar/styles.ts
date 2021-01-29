@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import * as variables from '../variables';
 
 export const Container = styled.div`
   background: #192da1;
@@ -6,6 +7,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 ${variables.mainMargin} 0 ${variables.mainMargin};
 
   /* @media (max-width: 730px) {
     div h1 {

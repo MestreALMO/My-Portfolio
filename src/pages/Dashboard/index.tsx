@@ -10,11 +10,9 @@ const Dashboard: React.FC = () => (
   <>
     <Container>
       <Header />
-      <div>
-        <Navbar />
-        <Home />
-        <Projects />
-      </div>
+      <Navbar />
+      <Home />
+      <Projects />
     </Container>
   </>
 );
