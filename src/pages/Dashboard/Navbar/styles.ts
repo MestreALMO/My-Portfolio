@@ -1,48 +1,59 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
+
 import * as variables from '../variables';
 
 export const Container = styled.div`
-  background: #192da1;
+  background: #fff;
   height: 48px;
+  width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 0 ${variables.mainMargin} 0 ${variables.mainMargin};
+  position: fixed;
+  overflow: hidden;
+  opacity: 0.8;
+  transition: opacity 0.3s;
 
-  /* @media (max-width: 730px) {
-    div h1 {
-      font-size: 16px;
-    }
+  &:hover {
+    opacity: 1;
   }
 
-  @media (max-width: 455px) {
-    div h1 {
-      font-size: 10px;
-    }
-  } */
-
-  ul {
+  div {
     display: flex;
-    flex-direction: row;
-    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: ${variables.mainWidth};
 
-    li {
-      margin-left: 30px;
+    svg {
+      font-size: 30px;
+      margin: 0 30px 0 30px;
+      color: #000312;
+    }
+  }
+`;
 
-      button {
-        background: transparent;
-        font-family: cursive, sans-serif;
-        color: #fff;
-        height: 48px;
-        border: 0;
+export const Ul = styled.ul`
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
 
-        &:hover {
-          color: gray;
-        }
-      }
+  li {
+    button {
+      background: transparent;
+      font-family: cursive, sans-serif;
+      color: #000312;
+      height: 48px;
+      border: 0;
+      padding: 0 15px 0 15px;
+      transition: background-color 0.2s;
+      font-weight: 600;
+      font-size: 1em;
 
-      &:first-child {
-        margin-left: 0px;
+      &:hover {
+        color: gray;
+        background: ${shade(0.2, '#000312')};
       }
     }
   }

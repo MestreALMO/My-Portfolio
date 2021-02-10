@@ -1,1 +1,1 @@
-export const mainMargin = '100px';
+export const mainWidth = '970px';
