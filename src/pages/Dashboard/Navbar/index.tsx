@@ -14,10 +14,10 @@ const Header: React.FC = () => {
               <button type="button">Home</button>
             </li>
             <li>
-              <button type="button">Projects</button>
+              <button type="button">About</button>
             </li>
             <li>
-              <button type="button">About</button>
+              <button type="button">Portfolio</button>
             </li>
             <li>
               <button type="button">Contact</button>
