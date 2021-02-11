@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container } from './styles';
 import TabTitle from '../../Components/TabTitle';
-import Linkedin from '../../../../assets/contact/linkedin.png';
+import Linkedin from '@assets/contact/linkedin.png';
 
 const Contact: React.FC = () => {
   return (
