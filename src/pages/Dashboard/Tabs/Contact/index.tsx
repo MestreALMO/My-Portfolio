@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Container } from './styles';
 import TabTitle from '../../Components/TabTitle';
+import Linkedin from '../../../../assets/contact/linkedin.png';
 
 const Contact: React.FC = () => {
   return (
@@ -16,10 +17,7 @@ const Contact: React.FC = () => {
             rel="noopener noreferrer"
           >
             <figure>
-              <img
-                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-                alt="Linkedin"
-              />
+              <img src={Linkedin} alt="Linkedin" />
               <figcaption>Linkedin</figcaption>
             </figure>
           </a>
