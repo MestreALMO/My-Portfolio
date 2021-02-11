@@ -4,7 +4,7 @@ import { shade } from 'polished';
 import * as variables from '../variables';
 
 export const Container = styled.div`
-  background: #fff;
+  background: ${variables.bgNavbarFooter};
   height: ${variables.navbarHeight};
   width: 100vw;
   display: flex;
@@ -44,7 +44,7 @@ export const Ul = styled.ul`
       background: transparent;
       font-family: cursive, sans-serif;
       color: #000312;
-      height: 48px;
+      height: ${variables.navbarHeight};
       border: 0;
       padding: 0 15px 0 15px;
       transition: background-color 0.2s;

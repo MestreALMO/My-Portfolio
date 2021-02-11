@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-import * as variables from '../variables';
-import bgHome from '../../../assets/homeBg.jpg';
+import * as variables from '../../variables';
+import bgHome from '../../../../assets/homeBg.jpg';
 
 export const Container = styled.div`
   width: 100%;

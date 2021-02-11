@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Container } from './styles';
-import homePhoto from '../../../assets/homePhoto.jpeg';
+import homePhoto from '../../../../assets/homePhoto.jpeg';
 
 const Home: React.FC = () => {
   return (

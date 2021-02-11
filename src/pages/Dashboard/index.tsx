@@ -1,9 +1,10 @@
 import React from 'react';
 
 import Navbar from './Navbar';
-import Home from './Home';
-import About from './About';
-import Projects from './Projects';
+import Home from './Tabs/Home';
+import About from './Tabs/About';
+import Portfolio from './Tabs/Portfolio';
+import Contact from './Tabs/Contact';
 import { Container } from './styles';
 
 const Dashboard: React.FC = () => (
@@ -12,7 +13,8 @@ const Dashboard: React.FC = () => (
       <Navbar />
       <Home />
       <About />
-      <Projects />
+      <Portfolio />
+      <Contact />
     </Container>
   </>
 );
