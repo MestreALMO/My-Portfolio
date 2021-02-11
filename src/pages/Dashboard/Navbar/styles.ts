@@ -6,7 +6,7 @@ import * as variables from '../variables';
 export const Container = styled.div`
   background: ${variables.bgNavbarFooter};
   height: ${variables.navbarHeight};
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
