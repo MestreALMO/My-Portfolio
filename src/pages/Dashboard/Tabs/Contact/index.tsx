@@ -8,12 +8,21 @@ const Contact: React.FC = () => {
     <>
       <Container>
         <TabTitle>Contact</TabTitle>
+        <a href="mailto:lusegardis@gmail.com">E-mail: lusegardis@gmail.com</a>
         <div>
-          <p>
-            I&apos;m a developer with focus on the front-end, my speciality
-            being web development, the coding I&apos;m use to work with are:
-            React, TS, JS, HTML, CSS, PHP.
-          </p>
+          <a
+            href="https://www.linkedin.com/in/andr%C3%A9-lusegardis/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <figure>
+              <img
+                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="Linkedin"
+              />
+              <figcaption>Linkedin</figcaption>
+            </figure>
+          </a>
         </div>
       </Container>
     </>

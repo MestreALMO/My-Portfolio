@@ -11,12 +11,10 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
 
-  div {
-    width: ${variables.mainWidth};
-
-    p {
-      text-indent: 3em;
-      font-size: 26px;
-    }
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 3vh;
   }
 `;
