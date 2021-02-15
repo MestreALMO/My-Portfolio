@@ -5,9 +5,9 @@ export const thirdWidth = '970px';
 export const forthWidth = '970px';
 
 // website colors
-export const bgDarkColor = '#040440';
-export const bgLightColor = '#0433ff';
-export const bgNavbarFooter = '#8bb7f0';
+export const bgDarkColor = '#010D26';
+export const bgLightColor = '#0D4F88';
+export const bgNavbarFooter = '#fff';
 
 // navbar
 export const navbarHeight = '6vh';

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Row, Frame } from './styles';
 import TabTitle from '../../Components/TabTitle';
 
 const Portfolio: React.FC = () => {
@@ -8,13 +8,21 @@ const Portfolio: React.FC = () => {
     <>
       <Container>
         <TabTitle>Portfolio</TabTitle>
-        <div>
-          <p>
-            I&apos;m a developer with focus on the front-end, my speciality
-            being web development, the coding I&apos;m use to work with are:
-            React, JS, TS, HTML, CSS, PHP.
-          </p>
-        </div>
+        <Row>
+          <Frame
+            href="https://github.com/MestreALMO/MestreALMO.github.io"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <figure>
+              <img
+                src="https://github.com/MestreALMO/MestreALMO.github.io/blob/master/_README.md/app.gif?raw=true"
+                alt="Test"
+              />
+              <figcaption>Test</figcaption>
+            </figure>
+          </Frame>
+        </Row>
       </Container>
     </>
   );

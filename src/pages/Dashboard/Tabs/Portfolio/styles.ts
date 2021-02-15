@@ -20,3 +20,37 @@ export const Container = styled.div`
     }
   }
 `;
+
+export const Row = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+`;
+
+export const Frame = styled.a`
+  text-decoration: none;
+  border-radius: 4px;
+
+  figure {
+    background-color: #333;
+    transition: box-shadow 0.2s;
+
+    &:hover {
+      box-shadow: 0 10px 100px #c82333;
+    }
+
+    img {
+      width: 470px;
+    }
+
+    figcaption {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 4px 4px 4px;
+      color: #fff;
+      font-weight: 800;
+    }
+  }
+`;
