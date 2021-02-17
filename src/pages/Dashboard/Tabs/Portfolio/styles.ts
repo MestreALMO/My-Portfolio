@@ -13,11 +13,6 @@ export const Container = styled.div`
 
   div {
     width: ${variables.mainWidth};
-
-    p {
-      text-indent: 3em;
-      font-size: 26px;
-    }
   }
 `;
 
@@ -51,6 +46,13 @@ export const Frame = styled.a`
       padding: 0 4px 4px 4px;
       color: #fff;
       font-weight: 800;
+    }
+
+    p {
+      background-color: #888;
+      color: #000;
+      padding: 4px;
+      text-indent: 16px;
     }
   }
 `;
