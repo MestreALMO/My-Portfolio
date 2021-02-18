@@ -1,46 +1,136 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="_README.md/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Portfolio project</h3>
 
-## Available Scripts
+  <p align="center">
+    My portfolio made in React
+    <br />
+    <br />
+  </p>
+</p>
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About the project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#running-code">Running Code</a>
+      <ul>
+        <li><a href="#first-time">First Time</a></li>
+        <li><a href="#running">Running</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `yarn build`
+<p align="center">
+  <img src="https://github.com/MestreALMO/My-Portfolio/blob/master/_README.md/app.gif?raw=true" />
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I started this project as a way to show my work easily to people and get a job.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- GETTING STARTED -->
+## Getting Started
 
-### `yarn eject`
+To access this project
+Make a copy of this files locally
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Prerequisites
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The things you need to install the software and how to install them
 
-## Learn More
+* [Nodejs](https://nodejs.org/en/) - Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+* Chocolatey - Chocolatey is software management automation for Windows that wraps installers, executables, zips, and scripts into compiled packages.
+  * To install execute the codes with a terminal (ex: In Windows use PowerShell):
+    ```
+    Get-ExecutionPolicy
+    ```
+    ```
+    Set-ExecutionPolicy AllSigned
+    ```
+    ```
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    ```
+    ```
+    choco
+    ```
+* Node.js, Yarn, Python2 e a JDK 8
+  ```
+  choco install -y nodejs-lts yarn python2 jdk8
+  ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+</br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Running Code
+
+Now the PC is ready, we can run the code.
+
+</br>
+
+### First time
+
+When running for the first time we need to run the following code in a terminal inside the project folder, so the project download the library that it uses
+
+```
+yarn
+```
+
+</br>
+
+### Running
+
+In a terminal inside the project folder use the code:
+
+```
+yarn start
+```
+
+With that the app will be running!!!
+
+
+
+## Usage
+
+The idea here is so people can see the projects I've done and see what i'm capable of, hopefully resulting in a good job proposal.
+
+<p align="center">
+  <img src="https://github.com/MestreALMO/My-Portfolio/blob/master/_README.md/app.gif?raw=true" />
+</p>
+
+</br>
+
+## Contact
+
+My Name: André Lusegardis Miranda de Oliveira
+
+  * lusegardis@gmail.com
+
+  * [LinkedIn](https://www.linkedin.com/in/andr%C3%A9-lusegardis/)
+
+  * [GitHub](https://github.com/MestreALMO)
