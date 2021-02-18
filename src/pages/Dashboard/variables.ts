@@ -10,7 +10,7 @@ export const bgLightColor = '#0D4F88';
 export const bgNavbarFooter = '#fff';
 
 // navbar
-export const navbarHeight = '6vh';
+export const navbarHeight = '52px';
 
 // Tabs
 export const paddingMain = '88px';

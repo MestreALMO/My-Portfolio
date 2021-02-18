@@ -1,13 +1,13 @@
 import React from 'react';
-import { BiWorld } from 'react-icons/bi';
+import { BiWorld, BiMenu } from 'react-icons/bi';
 
-import { Container, Ul } from './styles';
+import { Container, Navbar, Container2, Ul } from './styles';
 
 const Header: React.FC = () => {
   return (
     <>
       <Container>
-        <div>
+        <Navbar>
           <BiWorld />
           <Ul>
             <li>
@@ -23,8 +23,19 @@ const Header: React.FC = () => {
               <button type="button">Contact</button>
             </li>
           </Ul>
-        </div>
+        </Navbar>
       </Container>
+      <Container2>
+        <Navbar>
+          <BiWorld />
+          <Ul>
+            <button type="button">
+              <BiMenu />
+            </button>
+            <div />
+          </Ul>
+        </Navbar>
+      </Container2>
     </>
   );
 };
