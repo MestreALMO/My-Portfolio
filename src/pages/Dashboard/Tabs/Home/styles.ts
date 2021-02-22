@@ -8,7 +8,7 @@ export const Container = styled.div`
   background: url(${bgHome}) no-repeat fixed center;
   background-size: cover;
   padding-top: ${variables.navbarHeight};
-  height: 90vh;
+  height: 660px;
   display: flex;
   justify-content: center;
   align-items: center;

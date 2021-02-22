@@ -22,7 +22,7 @@ export const Container = styled.div`
 
 export const Container2 = styled.div`
   background: ${variables.bgNavbarFooter};
-  height: ${variables.navbarHeight};
+  /* height: ${variables.navbarHeight}; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -37,10 +37,34 @@ export const Container2 = styled.div`
     visibility: visible;
   }
 
-  button {
-    border: none;
-    background-color: transparent;
-    font-size: 1.3em;
+  ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -16px;
+
+    li {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+
+  .Accordion {
+    width: 100%;
+    height: ${variables.navbarHeight};
+  }
+  .AccordionSummary {
+    margin-top: -10px;
+    width: 100%;
+  }
+  .Mui-expanded {
+    height: auto;
   }
 `;
 

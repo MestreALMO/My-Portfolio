@@ -5,7 +5,7 @@ import * as variables from '../../variables';
 export const Container = styled.div`
   background: ${variables.bgDarkColor};
   width: 100%;
-  padding: ${variables.paddingMain} 0 ${variables.paddingMain} 0;
+  padding: 88px 0 88px 0;
   display: flex;
   justify-content: center;
   align-items: center;
