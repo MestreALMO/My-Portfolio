@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiWorld, BiMenu } from 'react-icons/bi';
+import { BiWorld } from 'react-icons/bi';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';

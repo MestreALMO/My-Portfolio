@@ -23,6 +23,7 @@ export const Row = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-top: 0;
   }
 `;
 
