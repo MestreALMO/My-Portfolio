@@ -6,7 +6,7 @@ import TabTitle from '../../Components/TabTitle';
 const About: React.FC = () => {
   return (
     <>
-      <Container>
+      <Container id="about">
         <TabTitle>About Me</TabTitle>
         <div>
           <p>

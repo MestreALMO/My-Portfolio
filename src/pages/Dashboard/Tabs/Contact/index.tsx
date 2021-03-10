@@ -9,7 +9,7 @@ import Codepen from '~/assets/contact/codepen.png';
 const Contact: React.FC = () => {
   return (
     <>
-      <Container>
+      <Container id="contact">
         <TabTitle>Contact</TabTitle>
         <Info>
           <Email href="mailto:lusegardis@gmail.com">

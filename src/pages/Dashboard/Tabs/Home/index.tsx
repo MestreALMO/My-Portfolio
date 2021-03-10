@@ -6,7 +6,7 @@ import homePhoto from '../../../../assets/homePhoto.jpeg';
 const Home: React.FC = () => {
   return (
     <>
-      <Container>
+      <Container id="home">
         <img
           // src="https://image.shutterstock.com/image-illustration/red-dragon-portrait-digital-painting-260nw-1543370009.jpg"
           src={homePhoto}

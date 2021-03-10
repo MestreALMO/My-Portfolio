@@ -52,6 +52,11 @@ export const Container2 = styled.div`
       button {
         width: 100%;
       }
+
+      a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
     }
   }
 
@@ -66,6 +71,12 @@ export const Container2 = styled.div`
   .Mui-expanded {
     height: auto;
   }
+`;
+
+export const MiniNavBar = styled.button`
+  width: 100%;
+  border: 0;
+  background-color: transparent;
 `;
 
 export const Navbar = styled.div`
@@ -88,33 +99,21 @@ export const Ul = styled.ul`
   margin: 0;
 
   li {
-    button {
-      background: transparent;
-      font-family: cursive, sans-serif;
-      color: #000312;
-      height: ${variables.navbarHeight};
-      border: 0;
-      padding: 0 15px 0 15px;
-      transition: background-color 0.2s;
-      font-weight: 600;
-      font-size: 1.2em;
-
-      &:hover {
-        color: gray;
-        background: ${shade(0.2, '#000312')};
-      }
-    }
-
     a {
+      padding: 15px;
       background: transparent;
       font-family: cursive, sans-serif;
       color: #000312;
-      height: ${variables.navbarHeight};
+      padding-top: ${variables.navbarHeight};
+      padding-bottom: ${variables.navbarHeight};
       border: 0;
-      padding: 0 15px 0 15px;
       transition: background-color 0.2s;
       font-weight: 600;
       font-size: 1.2em;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       &:hover {
         color: gray;
