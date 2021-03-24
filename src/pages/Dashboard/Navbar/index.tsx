@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-curly-newline */
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { BiWorld } from 'react-icons/bi';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
@@ -13,12 +13,6 @@ const Header: React.FC = () => {
   const miniNavbarRef = useRef<HTMLInputElement>(null);
 
   const [closeMenu, setCloseMenu] = useState(0);
-  // useEffect(() => {
-  //   if (closeMenu === 1 && intireSiteRef?.current?.click()) {
-  //     setCloseMenu(0);
-  //     miniNavbarRef?.current?.click();
-  //   }
-  // }, [closeMenu]);
 
   return (
     <>

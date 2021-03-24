@@ -29,7 +29,7 @@ const Portfolio: React.FC = () => {
             </figure>
           </Frame>
           <Frame
-            href={Projects.githubLink + Projects.projects[0]}
+            href={Projects.githubLink + Projects.projects[1]}
             target="_blank"
             rel="noopener noreferrer"
           >
