@@ -47,7 +47,7 @@
 ## About The Project
 
 <p align="center">
-  <img src="https://github.com/MestreALMO/My-Portfolio/blob/master/_README.md/app.gif?raw=true" />
+  <img src="_README.md/app.gif">
 </p>
 
 I started this project as a way to show my work easily to people and get a job.
@@ -120,7 +120,7 @@ With that the app will be running!!!
 The idea here is so people can see the projects I've done and see what i'm capable of, hopefully resulting in a good job proposal.
 
 <p align="center">
-  <img src="https://github.com/MestreALMO/My-Portfolio/blob/master/_README.md/app.gif?raw=true" />
+  <img src="_README.md/app.gif">
 </p>
 
 </br>
