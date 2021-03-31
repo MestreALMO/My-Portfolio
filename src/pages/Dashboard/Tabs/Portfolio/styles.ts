@@ -68,7 +68,7 @@ export const Frame = styled.a`
 
   @media only screen and (max-width: 900px) {
     img {
-      width: 590px;
+      width: 570px;
     }
     margin: 15px 0 15px 0;
   }
