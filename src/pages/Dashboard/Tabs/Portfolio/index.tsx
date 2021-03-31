@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo, useState } from 'react';
 
 import { Container, Row, Frame } from './styles';
 import TabTitle from '../../Components/TabTitle';
@@ -7,10 +7,38 @@ import * as Projects from './projects';
 const Portfolio: React.FC = () => {
   // const api = 'https://api.github.com/repos/MestreALMO/';
 
+  const [counter, setCounter] = useState(1);
+
+  const automaticFrame = useMemo(() => {
+    return Projects.projects.map(project => (
+      <>
+        {counter % 2 !== 0 ?? <p>test</p>}
+        <Frame
+          href={Projects.githubLink + project}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <figure>
+            <img
+              src={`${
+                Projects.githubLink + project
+              }/blob/master/_README.md/app.gif?raw=true`}
+              alt={project}
+            />
+            <figcaption>{project}</figcaption>
+            {/* <p>test</p> */}
+          </figure>
+        </Frame>
+        {setCounter(counter + 1)}
+      </>
+    ));
+  }, []);
+
   return (
     <>
       <Container id="portfolio">
         <TabTitle>Portfolio</TabTitle>
+        {automaticFrame}
         <Row>
           <Frame
             href={Projects.githubLink + Projects.projects[0]}

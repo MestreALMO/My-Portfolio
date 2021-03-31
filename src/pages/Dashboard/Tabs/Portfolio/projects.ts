@@ -2,6 +2,8 @@ export const githubApi = 'https://api.github.com/repos/MestreALMO/';
 export const githubLink = 'https://github.com/MestreALMO/';
 
 export const projects = [
+  'Movies-Website',
+  'Add-Remove-Mark-and-Mark-off-With-ReactJS',
   'My-Portfolio',
   'MealPlus-web',
   'Github_Explorer',
