@@ -5,5 +5,5 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  min-width: 490px;
+  min-width: 406px;
 `;

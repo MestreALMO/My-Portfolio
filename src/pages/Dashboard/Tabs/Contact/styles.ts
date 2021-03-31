@@ -33,7 +33,8 @@ export const Info = styled.div`
   flex-direction: column;
   background-color: #363636;
   padding: 50px;
-  border-radius: 50%;
+  border-radius: 10%;
+  max-width: 400px;
 `;
 
 export const Squares = styled.div`
