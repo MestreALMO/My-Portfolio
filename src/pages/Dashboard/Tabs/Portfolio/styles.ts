@@ -68,15 +68,15 @@ export const Frame = styled.a`
 
   @media only screen and (max-width: 900px) {
     img {
-      width: auto;
+      width: 570px;
     }
-    margin: 15px;
+    margin: 15px 0 15px 0;
   }
 
   @media only screen and (max-width: 600px) {
     img {
       width: 400px;
     }
-    margin: 15px;
+    margin: 15px 0 15px 0;
   }
 `;
