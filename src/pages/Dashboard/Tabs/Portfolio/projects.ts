@@ -1,15 +1,22 @@
 export const githubApi = 'https://api.github.com/repos/MestreALMO/';
 export const githubLink = 'https://github.com/MestreALMO/';
 
-export const projects = [
+const arrayProjects = [
+  'Movies-Website',
+  'Add-Remove-Mark-and-Mark-off-With-ReactJS',
+
   'My-Portfolio',
-  'MealPlus-web',
   'Github_Explorer',
+
   'MestreALMO.github.io',
-  'ReactJS-with-TypeScript-Template',
+  'Tests-With-useState-useEffect-useRef',
+
+  // 'Tic-Tac-Toe-React-in-JS',
+  // 'ReactJS-with-TypeScript-Template',
+
+  // 'Retractable-Accordion',
+  // 'MealPlus-web',
 ];
-// My-Portfolio
-// MealPlus-web
-// MestreALMO.github.io
-// Github_Explorer
-// ReactJS-with-TypeScript-Template
+arrayProjects.length % 2 !== 0 &&
+  arrayProjects.splice(arrayProjects.length - 1, 1);
+export const projects = arrayProjects;
