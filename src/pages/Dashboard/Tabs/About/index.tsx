@@ -25,8 +25,8 @@ const About: React.FC = () => {
             of my making, this was made with React TS.
           </p>
           <p>
-            Among my main interests in hobbies are: Watching series, animes,
-            youtube; playing on PC and consoles; reading romances; programing.
+            Among my main hobbies are: Watching series, animes, youtube; gaming
+            on PC and consoles; reading romances; programing.
           </p>
         </div>
       </Container>

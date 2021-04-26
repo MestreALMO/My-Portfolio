@@ -16,7 +16,7 @@ export const Container = styled.div`
     padding: 0 100px 0 100px;
 
     p {
-      text-indent: 3em;
+      text-indent: 2em;
       font-size: 26px;
     }
   }

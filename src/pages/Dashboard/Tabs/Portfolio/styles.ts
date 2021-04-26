@@ -40,9 +40,6 @@ export const Frame = styled.a`
       box-shadow: 0 10px 100px #c82333;
     }
 
-    img {
-    }
-
     figcaption {
       display: flex;
       justify-content: center;
@@ -75,7 +72,7 @@ export const Frame = styled.a`
 
   @media only screen and (max-width: 600px) {
     img {
-      width: 400px;
+      width: 320px;
     }
     margin: 15px 0 15px 0;
   }

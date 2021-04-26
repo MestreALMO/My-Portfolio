@@ -13,7 +13,8 @@ const Contact: React.FC = () => {
         <TabTitle>Contact</TabTitle>
         <Info>
           <Email href="mailto:lusegardis@gmail.com">
-            E-mail: lusegardis@gmail.com
+            <div>E-mail:&nbsp;</div>
+            <div>lusegardis@gmail.com</div>
           </Email>
           <Squares>
             <a

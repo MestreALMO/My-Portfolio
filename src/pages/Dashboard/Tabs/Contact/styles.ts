@@ -12,11 +12,25 @@ export const Container = styled.div`
   flex-direction: column;
 `;
 
+export const Info = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #363636;
+  padding: 25px;
+  border-radius: 10%;
+  max-width: 400px;
+`;
+
 export const Email = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: #fff;
   font-size: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 10%;
   padding: 4px;
   transition: color 0.2s;
@@ -24,22 +38,19 @@ export const Email = styled.a`
   &:hover {
     background-color: #c82333;
   }
-`;
 
-export const Info = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #363636;
-  padding: 50px;
-  border-radius: 10%;
-  max-width: 400px;
+  @media screen and (max-width: 410px) {
+    flex-direction: column;
+  }
 `;
 
 export const Squares = styled.div`
   display: flex;
   flex-direction: row;
+
+  @media screen and (max-width: 410px) {
+    flex-direction: column;
+  }
 
   a {
     text-decoration: none;
@@ -48,6 +59,15 @@ export const Squares = styled.div`
     background-color: #003561;
     border-radius: 10%;
     transition: background-color 0.2s;
+    margin-bottom: 8px;
+
+    &::first-child {
+      margin-bottom: 0;
+    }
+
+    &::last-child {
+      margin-bottom: 0;
+    }
 
     &:hover {
       background-color: #c82333;
