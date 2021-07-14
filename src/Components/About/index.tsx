@@ -22,7 +22,7 @@ const About: React.FC = () => {
           <p>
             Today here I am with my diploma (Bachelor&apos;s degrees in
             information systems), lot&apos;s of systems developed and this site
-            of my making. This site was made with NextJS.
+            of my making. This site was made with ReactJS.
           </p>
           <p>
             Among my main hobbies are: Developing; Watching series, animes,
