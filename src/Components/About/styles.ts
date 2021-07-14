@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import * as variables from '../../variables';
+import * as variables from '../../pages/Frontpage/variables';
 
 export const Container = styled.div`
   background: ${variables.bgDarkColor};

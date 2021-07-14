@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Index from './pages/Dashboard';
+import Index from './pages/Frontpage';
 
 import GlobalStyle from './styles/global';
 

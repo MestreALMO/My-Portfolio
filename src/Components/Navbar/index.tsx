@@ -47,18 +47,6 @@ const Header: React.FC = () => {
             <li>
               <Link
                 activeClass="active"
-                to="portfolio"
-                spy
-                smooth
-                offset={0}
-                duration={500}
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="active"
                 to="contact"
                 spy
                 smooth
@@ -66,6 +54,18 @@ const Header: React.FC = () => {
                 duration={500}
               >
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="portfolio"
+                spy
+                smooth
+                offset={0}
+                duration={500}
+              >
+                Portfolio
               </Link>
             </li>
           </Ul>

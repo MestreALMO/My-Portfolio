@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 
 import { Container, Row, Frame } from './styles';
-import TabTitle from '../../Components/TabTitle';
+import TabTitle from '../TabTitle';
 import * as Projects from './projects';
 
 const ProjectInPair = Projects.projects.reduce((acc, curr, index) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Container, Squares, Info, Email } from './styles';
-import TabTitle from '../../Components/TabTitle';
+import TabTitle from '../TabTitle';
 import Linkedin from '~/assets/contact/linkedin.png';
 import Github from '~/assets/contact/github.png';
 import Codepen from '~/assets/contact/codepen.png';

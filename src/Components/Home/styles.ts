@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-import * as variables from '../../variables';
-import bgHome from '../../../../assets/homeBg.jpg';
+import * as variables from '../../pages/Frontpage/variables';
+import bgHome from '../../assets/bgHomeBlured.png';
 
 export const Container = styled.div`
   width: 100%;
-  background: url(${bgHome}) no-repeat fixed center;
+  background: url(${bgHome}) no-repeat center;
   background-size: cover;
   padding-top: ${variables.navbarHeight};
   height: 660px;
