@@ -16,4 +16,9 @@ export default createGlobalStyle`
     background: #000;
     color: white;
   }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 `;
