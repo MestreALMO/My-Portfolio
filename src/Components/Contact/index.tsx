@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
           </Email>
           <Squares>
             <a
-              href="https://www.linkedin.com/in/andr%C3%A9-lusegardis/"
+              href="https://www.linkedin.com/in/andr%C3%A9-lusegardis/detail/recent-activity/shares/"
               target="_blank"
               rel="noopener noreferrer"
             >
