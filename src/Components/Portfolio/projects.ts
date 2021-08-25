@@ -3,7 +3,6 @@ export const githubLink = 'https://github.com/MestreALMO/';
 
 const arrayProjects = [
   'Edusynch-Challenge',
-  'Challenges_jschallenger.com',
   'Using-Studio-Ghilis-API-With-JS-Only',
   'my-portfolio-next',
   'Youtube-Navbar-2021',
